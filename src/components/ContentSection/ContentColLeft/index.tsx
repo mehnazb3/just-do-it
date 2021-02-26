@@ -1,9 +1,12 @@
 import React, { FC } from "react";
-import { ContentColLeftWrapper } from "./styles";
+import { ContentColLeftWrapper, ProfileWrapper } from "./styles";
+import avatarIcon from "../../../assets/images/avatar.png";
 
 const ContentColLeft: FC = () => {
   return (
-    <ContentColLeftWrapper>Important links and pics</ContentColLeftWrapper>
+    <ContentColLeftWrapper>
+      <ProfileWrapper src={avatarIcon} />
+    </ContentColLeftWrapper>
   );
 };
 

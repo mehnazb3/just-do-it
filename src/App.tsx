@@ -9,14 +9,6 @@ function App() {
     <Router>
       <div className="App">
         <Layout />
-        {/* Important */}
-        {/* <Layout>
-        <TopNavigation></TopNavigation>
-        <ContentSection>
-          <ContentColLeft></ContentColLeft>
-          <ContentColRight></ContentColRight>
-        </ContentSection>
-      </Layout> */}
       </div>
     </Router>
   );

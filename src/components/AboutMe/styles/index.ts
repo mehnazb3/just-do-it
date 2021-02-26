@@ -34,11 +34,3 @@ export const MailLink = styled.a`
 export const ButtonsWrapper = styled.p`
   display: inline-block;
 `;
-
-export const PrimaryButton = styled.p`
-  background-color: green;
-`;
-
-export const SecondaryButton = styled.p`
-  background-color: gray;
-`;

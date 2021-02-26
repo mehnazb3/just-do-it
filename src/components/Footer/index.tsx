@@ -1,12 +1,8 @@
-import React, {FC} from 'react';
-import {FooterWrapper} from './styles';
+import React, { FC } from "react";
+import { FooterWrapper } from "./styles";
 
 const Footer: FC = () => {
-  return (
-      <FooterWrapper>
-          Copyright Mehnaz
-      </FooterWrapper>
-  )
-}
+  return <FooterWrapper>Copyright Mehnaz</FooterWrapper>;
+};
 
 export default Footer;

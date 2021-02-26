@@ -22,15 +22,3 @@ export const Title = styled.h1`
 `;
 
 export const Content = styled.p``;
-
-export const MailLink = styled.a`
-  color: white;
-  padding-left: 10px;
-  &:hover {
-    pointer-events: none;
-  }
-`;
-
-export const ButtonsWrapper = styled.p`
-  display: inline-block;
-`;

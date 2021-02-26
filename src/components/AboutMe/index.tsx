@@ -1,15 +1,7 @@
 import React, { FC } from "react";
-import {
-  AboutMeWrapper,
-  Sutitle,
-  Title,
-  Content,
-  ButtonsWrapper,
-  MailLink,
-} from "./styles";
-import { Button } from "antd";
-import "antd/dist/antd.css";
-import { MailOutlined } from "@ant-design/icons";
+import { AboutMeWrapper, Sutitle, Title, Content } from "./styles";
+
+import ActionButton from "../shared/ActionButton";
 
 const AboutMe: FC = () => {
   return (
@@ -23,18 +15,7 @@ const AboutMe: FC = () => {
         clients. I am very passionate about my work. I&apos;m interested in
         Badminton, Photography and Watercolour painting.
       </Content>
-      <ButtonsWrapper>
-        <Button
-          type="primary"
-          href="mailto:mehnazb3@gmail.com"
-          icon={<MailOutlined />}
-        >
-          <MailLink>Get in Touch</MailLink>
-        </Button>
-        <Button href="/qualification" style={{ float: "right" }}>
-          Continue and Next
-        </Button>
-      </ButtonsWrapper>
+      <ActionButton linkPath={"/qualification"} />
     </AboutMeWrapper>
   );
 };

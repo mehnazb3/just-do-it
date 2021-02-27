@@ -12,6 +12,7 @@ const ContentColRight: FC = () => {
     <ContentColRightWrapper>
       <Section>
         <Switch>
+          <Route async path="/" component={AboutMe} />
           <Route async path="/aboutme" component={AboutMe} />
           <Route async path="/qualification" component={Qualification} />
           <Route async path="/workexperience" component={WorkExperience} />

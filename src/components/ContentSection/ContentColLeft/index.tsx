@@ -6,7 +6,7 @@ const ContentColLeft: FC = () => {
   return (
     <ContentColLeftWrapper>
       <InfoWrapper>
-        <span></span>
+        <span>YET TO ADD</span>
       </InfoWrapper>
       <ProfileWrapper src={avatarIcon} />
     </ContentColLeftWrapper>

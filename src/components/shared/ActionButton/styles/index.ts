@@ -7,7 +7,13 @@ export const ButtonsWrapper = styled.p`
 export const MailLink = styled.a`
   color: white;
   padding-left: 10px;
+  &:span {
+    margin-right: 5px;
+  }
   &:hover {
-    pointer-events: none;
+    cursor: pointer;
+  }
+  .anticon-mail {
+    color: white;
   }
 `;

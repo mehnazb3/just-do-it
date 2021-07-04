@@ -14,3 +14,7 @@ export const ProfileWrapper = styled.img`
   border-radius: 50%;
   filter: grayscale(60%);
 `;
+
+export const InfoWrapper = styled.div`
+  color: white;
+`;

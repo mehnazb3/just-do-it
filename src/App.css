@@ -18,14 +18,23 @@ html, body, #root
   padding: 5px !important;
 }
 
+.ant-btn{
+  text-transform: uppercase;
+}
+
 .ant-btn:hover {
-  color: #09d3ac !important;
+  color: #09d3ac;
   border: 1px solid #09d3ac!important;
+}
+
+.ant-btn span:hover {
+  color: #09d3ac;
 }
 
 .ant-btn-primary a:hover, .ant-btn-primary .anticon:hover{
   color: white !important;
 }
+
 .ant-collapse-content-box {
   padding: 16px 40px!important;
 }

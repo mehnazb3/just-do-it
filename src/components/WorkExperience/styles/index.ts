@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const WorkExperienceWrapper = styled.div`
-  color: black;
+  color: #283747;
   width: 60%;
   display: flex;
   flex-direction: column;
@@ -9,5 +9,5 @@ export const WorkExperienceWrapper = styled.div`
 `;
 
 export const Subtitle = styled.span`
-  color: #09d3ac;
+  color: #de354c;
 `;

@@ -1,7 +1,8 @@
 import styled from "styled-components";
 
-export const ButtonsWrapper = styled.p`
+export const ButtonsWrapper = styled.div`
   display: inline-block;
+  margin-top: 20px;
 `;
 
 export const MailLink = styled.a`

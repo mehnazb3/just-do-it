@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const ContentWrapper = styled.div`
-  background-color: black;
+  background-color: #283747;
   height: 80%;
   display: flex;
   justify-content: space-between;

@@ -2,7 +2,7 @@
 import styled from "styled-components";
 
 export const AboutMeWrapper = styled.div`
-  color: black;
+  color: #283747;
   width: 60%;
   display: flex;
   flex-direction: column;
@@ -11,7 +11,7 @@ export const AboutMeWrapper = styled.div`
 
 export const Sutitle = styled.p`
   font-size: 20px;
-  color: #09d3ac;
+  color: #de354c;
   font-weight: 500;
   font-variant-caps: all-small-caps;
 `;

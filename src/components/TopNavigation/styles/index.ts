@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const HeaderWrapper = styled.div`
   font-variant: all-small-caps;
   height: 80px;
-  background-color: white;
+  background-color: #f3f3f3;
   display: flex;
   flex-direction: row; /* make main axis horizontal (default value) */
   justify-content: space-between;
@@ -17,7 +17,7 @@ export const Col = styled.div`
   padding: 0 20px;
   & > a {
     text-decoration: none;
-    color: black;
+    color: #283747;
   }
 `;
 

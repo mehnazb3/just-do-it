@@ -1,34 +1,40 @@
 .App {
   text-align: center;
   height: 100%;
+  overflow: hidden;
 }
 
 html, body, #root
 {
   height: 100%;
 }
+h1, h2, h3, h4, h5, h6 {
+  color: #283747!important;
+}
 
 .ant-btn-primary {
-  background-color: #09d3ac !important;
+  background-color: #DE354C !important;
   color: white !important;
-  border: 1px solid #09d3ac!important;
+  border: 1px solid #DE354C!important;
 }
 
-.ant-btn-primary a {
-  padding: 5px !important;
-}
-
-.ant-btn{
+.ant-btn {
+  padding: 15px !important;
+  display: inline !important;
   text-transform: uppercase;
+  height: auto !important;
+  opacity: 0.9;
 }
 
 .ant-btn:hover {
-  color: #09d3ac;
-  border: 1px solid #09d3ac!important;
+  color: #DE354C;
+  border: 1px solid #DE354C!important;
+  opacity: 1;
+  transition: opacity 0.7s linear;
 }
 
-.ant-btn span:hover {
-  color: #09d3ac;
+.ant-btn a:hover {
+  color: #DE354C !important;
 }
 
 .ant-btn-primary a:hover, .ant-btn-primary .anticon:hover{

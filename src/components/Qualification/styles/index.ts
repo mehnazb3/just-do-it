@@ -2,7 +2,7 @@
 import styled from "styled-components";
 
 export const QualificationWrapper = styled.div`
-  color: black;
+  color: #283747;
   width: 60%;
   display: flex;
   flex-direction: column;

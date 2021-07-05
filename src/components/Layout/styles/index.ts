@@ -2,7 +2,7 @@
 import styled from "styled-components";
 
 export const LayoutWrapper = styled.div`
-  color: black;
+  color: #283747;
   height: 100%;
   letter-spacing: 0.1em;
   font-size: 16px;

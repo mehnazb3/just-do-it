@@ -16,8 +16,8 @@ const ActionButton: FC<Props> = ({ linkPath }) => {
         <MailLink>Get in Touch</MailLink>
       </Button>
       {linkPath !== "/" && (
-        <Button href={linkPath} style={{ float: "right" }}>
-          Continue and Next
+        <Button href={linkPath} style={{ marginLeft: "80px" }}>
+          <MailLink>Continue and Next</MailLink>
         </Button>
       )}
     </ButtonsWrapper>

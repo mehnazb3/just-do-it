@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const TechnologiesWrapper = styled.div`
-  color: black;
+  color: #283747;
   width: 80%;
   display: flex;
   flex-direction: column;
@@ -12,7 +12,7 @@ export const TechnologyWrapper = styled.div`
   margin-bottom: 10px;
 `;
 export const Title = styled.h5`
-  color: black;
+  color: #283747;
   font-weight: 600;
   font-variant-caps: all-small-caps;
   margin-bottom: 10px;
@@ -24,5 +24,5 @@ export const SubTitle = styled.span`
 `;
 
 export const ListItems = styled.div`
-  color: black;
+  color: #283747;
 `;

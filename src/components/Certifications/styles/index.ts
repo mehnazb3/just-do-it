@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const CertificationsWrapper = styled.div`
-  color: black;
+  color: #283747;
   width: 80%;
   display: flex;
   flex-direction: column;
@@ -18,5 +18,5 @@ export const Logo = styled.img`
 `;
 
 export const ListItems = styled.div`
-  color: black;
+  color: #283747;
 `;

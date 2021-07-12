@@ -121,12 +121,14 @@ const Technologies: FC = () => {
   ) => {
     return (
       <Row gutter={[25, 25]}>
+        {/* eslint-disable-next-line @typescript-eslint/no-explicit-any */}
         {collection.map((technology: any) => {
           return (
             <Col span={4} key={technology.name}>
               <div>
                 <img
                   src={technology.logo}
+                  alt="tech"
                   style={{
                     width: "40px",
                     height: "40px",
